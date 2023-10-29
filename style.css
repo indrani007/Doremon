@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(-45deg, rgb(211,142,13),rgb(248,11,110), skyblue,green);
+    background-size:400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+#doremon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+}
